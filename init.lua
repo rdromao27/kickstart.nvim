@@ -788,7 +788,10 @@ require('lazy').setup({
         Define = { fg = '${yellow}' },
         Include = { fg = '${yellow}' },
         Structure = { fg = '${yellow}' },
-        Typedef = { fg = '${yellow}' },
+        ['@odp.punctuation_arguments_brackets.rust'] = { fg = '${cyan}' },
+        ['@lsp.type.namespace.rust'] = { fg = '${yellow}' },
+        NvimTreeFolderIcon = { fg = '${gray}' },
+        NvimTreeRootFolder = { fg = '${cyan}' },
       },
     },
     init = function()
